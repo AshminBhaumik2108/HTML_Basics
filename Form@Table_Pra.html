@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form with Table</title>
+</head>
+<style>
+    table{
+        width: 30%;
+        border: 3px;
+        border-collapse: collapse;
+    }
+    table,th{    
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 20px;
+    }
+    td{   
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+    table tr th#one{
+        font-weight: bold;
+        text-align: left;
+    }
+    table tr th#hunt{
+        padding: 5px;
+    }
+</style>
+<body>
+    <form action="https://www.linkedin.com/feed/"><center><table>
+    <tr>
+        <th colspan="2" id="one">Virtual Information</th>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><input type="email" name="MyEmail"></td>
+    </tr>
+    <tr>
+        <td>Do you use the work</td>
+        <td><input type="checkbox" name="MyCheckbox">Research    
+            <input type="checkbox" name="MyCheckbox">PinBox</td>
+    </tr>
+    <tr>
+        <td>Occupation</td>
+        <td><select>
+            <option value="Ashmin">Occupation</option>
+            <option value="Ashmin">Government Employee</option>
+            <option value="Ashmin">Private Employee</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td>Want to stay with us?</td>
+        <td><input type="checkbox" name="MyStay">Absolutely
+            <input type="checkbox" name="MyStay">No way</td>
+    </tr>
+    <tr>
+        <th colspan="2" id="hunt"> <input type="submit" value="Submit">      
+                      <input type="reset" value="Reset"></th>
+    </tr>
+
+    </table></center></form>
+</body>
+</html>

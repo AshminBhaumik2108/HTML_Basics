@@ -1,0 +1,11 @@
+
+<html>
+<head>
+<title>Text Direction Example</title>
+<link rel="stylesheet" href="D:\CSE326 html\Pep.css">
+</head>
+<body>
+<center><h1>This text will go left to right</h1></center>
+<p><bdo dir="rtl"><q>This text will go right to left</q></bdo></p>
+</body>
+</html>

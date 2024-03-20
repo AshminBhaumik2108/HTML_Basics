@@ -1,0 +1,12 @@
+p
+{ font: Vladimir Script;
+  background-color:blue;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 30px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: green;
+  color: yellow;
+}

@@ -1,0 +1,8 @@
+div
+{
+    height:200px;
+    width: 100%;
+     background-image:url(Screenshot 2022-10-01 230509.png);
+     background-repeat: repeat-x;
+     background-position:center  top;
+}
